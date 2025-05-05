@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+
+    
+<!-- Mirrored from themesbrand.com/veltrix/layouts/tables-datatable.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 11:35:57 GMT -->
+<head>
+    
+        <meta charset="utf-8">
+        <title> SMC - User & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+        <meta content="Themesbrand" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+    
+        <!-- DataTables -->
+        <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Responsive datatable examples -->
+        <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css">
+    
+    </head>
+
+<body data-sidebar="dark">
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                        </a>
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                    
+                </div>
+
+                <div class="d-flex">
+                      <!-- App Search-->
+                      
+
+                    
+
+                    
+
+                    <div class="dropdown d-none d-lg-inline-block">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
+                            <i class="mdi mdi-fullscreen"></i>
+                        </button>
+                    </div>
+
+                            
+                           
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/user-4.jpg"
+                                alt="Header Avatar">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <!-- item-->
+                            <a class="dropdown-item" href="user-profile.html"><i class="mdi mdi-account-circle font-size-17 align-middle me-1"></i> Profile</a>
+                            <a class="dropdown-item" href="user-profile.html"><i class="mdi mdi-wallet font-size-17 align-middle me-1"></i> Change Password</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-17 align-middle me-1 text-danger"></i> Logout</a>
+                        </div>
+                    </div>
+
+                    
+        
+                </div>
+            </div>
+        </header>
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-home-outline"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="user-profile.html" class=" waves-effect">
+                                <i class="mdi mdi-account-circle"></i>
+                                <span>User Profile</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-account-group"></i>
+                                <span>Team & Network</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="referral-team.html">Referral Team</a></li>
+                                <li><a href="level-team.html">Level Team</a></li>
+                                <li><a href="my-downline.html">My Downline</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="chit-group.html" class="waves-effect">
+                                <i class="mdi mdi-account-multiple"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Chit Group</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-chart-bar"></i>
+                                <span>Income report</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="referral-income.html">Referral Income</a></li>
+                                <li><a href="level-income.html">Level Income</a></li>
+                                <li><a href="reward-income.html">Reward Income</a></li>
+                               
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-wallet"></i>
+                                <span>Wallet</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="withdraw-report.html">withdraw Report</a></li>
+                                <li><a href="income-statement.html">Income Statement</a></li>
+                                
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="" class="waves-effect">
+                                <i class="mdi mdi-logout"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+       <!-- Main Content -->
+       <div class="main-content">
+        <div class="page-content">
+            <div class="container-fluid" style="padding: 10px;">
+                <!-- Referral URL block - place inside container-fluid -->
+                <div class="container-fluid" style="margin-left: 0; margin-right: 0;">
+                    <div class="mb-4 p-4 border rounded text-center" 
+                         style="background: linear-gradient(to right, #f0f4ff, #e4f9f5); color: #333; width: 100%; margin-left: 0; margin-right: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        
+                        <h5 style="font-weight: 600; margin-bottom: 15px;">🔗   Referral Url</h5>
+                        
+                        <div class="d-flex justify-content-center flex-wrap" style="gap: 10px;">
+                            <!-- Copy Button -->
+                            <button class="btn btn-light" onclick="copyReferral()" 
+                                    style="border: 2px solid #6c757d; color: #333; padding: 8px 16px; font-weight: 500;">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                
+                            <!-- WhatsApp Share -->
+                            <a id="whatsappShare" class="btn btn-success" target="_blank"
+                               style="padding: 8px 16px; font-weight: 500;">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                
+                            <!-- Telegram Share -->
+                            <a id="telegramShare" class="btn btn-info text-white" target="_blank"
+                               style="padding: 8px 16px; font-weight: 500;">
+                                <i class="fab fa-telegram-plane"></i> Telegram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    // Define your referral URL
+                    const userId = "USERID123"; // Replace with dynamic user ID if needed
+                    const referralURL = `https://example.com/referral/${userId}`;
+                
+                    // Set share links
+                    document.getElementById("whatsappShare").href = 
+                        `https://wa.me/?text=Join%20me%20using%20this%20referral%20link%3A%20${encodeURIComponent(referralURL)}`;
+                
+                    document.getElementById("telegramShare").href = 
+                        `https://t.me/share/url?url=${encodeURIComponent(referralURL)}&text=Join%20me%20using%20this%20referral%20link!`;
+                
+                    // Copy to clipboard function
+                    function copyReferral() {
+                        navigator.clipboard.writeText(referralURL).then(() => {
+                            alert("Referral URL copied to clipboard!");
+                        });
+                    }
+                </script>
+                
+
+                <!-- Navigation bar box -->
+                <div style="display: flex; align-items: center; background-color: rgba(192, 15, 251, 0.5); padding: 10px 20px; border-radius: 5px; margin-bottom: 10px;">
+                    <div style="width: 20px; height: 20px; background-color: white; border-radius: 50%; margin-right: 10px;"></div>
+                    <a href="#" style="color: white; text-decoration: none; font-size: 16px;">Home</a>
+                    <span style="color: white; margin: 0 5px;">></span>
+                    <a href="#" style="color: white; text-decoration: none; font-size: 16px;">Dashboard</a>
+                </div>
+                <!-- Moving welcome text box -->
+                <div style="overflow: hidden; white-space: nowrap; background-color: rgba(178, 232, 18, 0.5); padding: 10px; border-radius: 5px; margin-bottom: 10px;">
+                    <span style="display: inline-block; color: red; font-size: 24px; font-weight: bold; animation: moveLeft 10s linear infinite; position: relative; left: 100%;">
+                        WELCOME TO SRI MUNESHWARA CHITS
+                    </span>
+                </div>
+                <!-- Ticker 1 box -->
+                <div style="overflow: hidden; white-space: nowrap; background: linear-gradient(to right, #1e3c72, #2a5298); padding: 10px; border-radius: 5px; margin-bottom: 10px;">
+                    <span style="display: inline-block; color: #fff; font-size: 16px; font-family: 'Courier New', Courier, monospace; animation: moveRight 15s linear infinite; position: relative; left: -100%;">
+                        Composite 3,297.2881 | -0.9329 (-0.03%) | EUR/USD 1.13558 | -0.00 (-0.27%) | BTC/USD 94,924.0 | +963.00 (+1.02%) | ETH/USD 1,796.70 | +27.30 (+1.52%)
+                    </span>
+                </div>
+                
+                <style>
+                    @keyframes moveLeft {
+                        0% {
+                            transform: translateX(0);
+                        }
+                        100% {
+                            transform: translateX(-100vw);
+                        }
+                    }
+                    @keyframes moveRight {
+                        0% {
+                            transform: translateX(0);
+                        }
+                        100% {
+                            transform: translateX(100vw);
+                        }
+                    }
+                </style>
+<div class="row">
+    <div class="col-xl-4 col-md-6">
+        <div class="card mini-stat text-green" style="background-color: #f9f9f9; box-shadow: 0 8px 16px rgba(16, 123, 205, 0.963); cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onclick="window.location.href='chit-group.html'">
+            <div class="card-body">
+                <div style="margin-bottom: 1rem; text-align: center;">
+                    <div style="display: inline-block; margin-bottom: 0.5rem;">
+                        <i class="mdi mdi-account-group fa-2x" style="color: black;"></i>
+                    </div>
+                    <h5 style="font-size: 13px; text-transform: uppercase; color: #190550;">Chit Group</h5>
+                    <h4 style="font-weight: 500; font-size: 24px;">410</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-6">
+        <div class="card mini-stat text-green" style="background-color: #f9f9f9; box-shadow: 0 8px 16px limegreen; cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onclick="window.location.href='referral-income.html'">
+            <div class="card-body">
+                <div style="margin-bottom: 1rem; text-align: center;">
+                    <div style="display: inline-block; margin-bottom: 0.5rem;">
+                        <i class="mdi mdi-account-plus fa-2x" style="color: black;"></i>
+                    </div>
+                    <h5 style="font-size: 13px; text-transform: uppercase; color: #190550;">Referral Income</h5>
+                    <h4 style="font-weight: 500; font-size: 24px;">&#8377; 0.00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-6">
+        <div class="card mini-stat text-green" style="background-color: #f9f9f9; box-shadow: 0 8px 16px rgba(153, 11, 200, 0.871); cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onclick="window.location.href='level-income.html'">
+            <div class="card-body">
+                <div style="margin-bottom: 1rem; text-align: center;">
+                    <div style="display: inline-block; margin-bottom: 0.5rem;">
+                        <i class="mdi mdi-stairs-up fa-2x" style="color: black;"></i>
+                    </div>
+                    <h5 style="font-size: 13px; text-transform: uppercase; color: #190550;">Level Income</h5>
+                    <h4 style="font-weight: 500; font-size: 24px;">&#8377; 0.00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-6">
+        <div class="card mini-stat text-green" style="background-color: #f9f9f9; box-shadow: 0 8px 16px rgba(255, 105, 180, 0.5); cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onclick="window.location.href='level-income.html'">
+            <div class="card-body">
+                <div style="margin-bottom: 1rem; text-align: center;">
+                    <div style="display: inline-block; margin-bottom: 0.5rem;">
+                        <i class="mdi mdi-stairs fa-2x" style="color: black;"></i>
+                    </div>
+                    <h5 style="font-size: 13px; text-transform: uppercase; color: #190550;">Today Level Income</h5>
+                    <h4 style="font-weight: 500; font-size: 24px;">&#8377; 0.00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-6">
+        <div class="card mini-stat text-green" style="background-color: #f9f9f9; box-shadow: 0 8px 16px rgba(255, 0, 0, 0.5); cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" onclick="window.location.href='income-statement.html'">
+            <div class="card-body">
+                <div style="margin-bottom: 1rem; text-align: center;">
+                    <div style="display: inline-block; margin-bottom: 0.5rem;">
+                        <i class="mdi mdi-wallet fa-2x" style="color: black;"></i>
+                    </div>
+                    <h5 style="font-size: 13px; text-transform: uppercase; color: #190550;">Total Earnings</h5>
+                    <h4 style="font-weight: 500; font-size: 24px;">&#8377; 0</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center" style="gap: 20px; margin-top: 30px;">
+    <div class="col-auto">
+      <div class="card" style="width: 375px; background: #fff; border: none; border-radius: 12px; box-shadow: 0px 8px 20px rgba(71, 160, 243, 0.4);">
+        <div class="card-body text-center">
+          <div style="margin-bottom: 10px;">
+            <i class="mdi mdi-cash fa-2x" style="color: black;"></i>
+          </div>
+          <h5 style="font-size: 14px; color: #190550; font-weight: bold; text-transform: uppercase;">Total Income</h5>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-auto">
+        <div class="card" style="width: 375px; min-height: 120px; background: #fff; border: none; border-radius: 12px; box-shadow: 0px 8px 20px rgba(13, 163, 103, 0.4);">
+          <div class="card-body text-center">
+            <div style="margin-bottom: 10px;">
+                <i class="fas fa-money-bill-wave fa-2x"  style="color: black;"></i>
+            </div>
+            <h5 style="font-size: 14px; color: #190550; font-weight: bold; text-transform: uppercase;">Total Payout</h5>
+          </div>
+        </div>
+      </div>
+
+
+
+   
+
+
+
+    <div class="col-auto">
+      <div class="card" style="width: 375px; background: #fff; border: none; border-radius: 12px; box-shadow: 0px 8px 20px rgba(223, 159, 8, 0.4);">
+        <div class="card-body text-center">
+          <div style="margin-bottom: 10px;">
+            <i class="mdi mdi-wallet-outline fa-2x" style="color: black;"></i>
+          </div>
+          <h5 style="font-size: 14px; color: #190550; font-weight: bold; text-transform: uppercase;">Remaining Balance</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+       
+                   
+               
+  <!-- Right bar overlay-->
+  <div class="rightbar-overlay"></div>
+
+  <!-- JAVASCRIPT -->
+  <script src="assets/libs/jquery/jquery.min.js"></script>
+  <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+  <script src="assets/libs/simplebar/simplebar.min.js"></script>
+  <script src="assets/libs/node-waves/waves.min.js"></script>
+
+  <!-- Peity chart-->
+  <script src="assets/libs/peity/jquery.peity.min.js"></script>
+
+  <!-- Plugin Js-->
+  <script src="assets/libs/chartist/chartist.min.js"></script>
+  <script src="assets/libs/chartist-plugin-tooltips/chartist-plugin-tooltip.min.js"></script>
+
+  <script src="assets/js/pages/dashboard.init.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+    
+<!-- Mirrored from themesbrand.com/veltrix/layouts/tables-datatable.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 11:35:57 GMT -->
+<head>
+    
+        <meta charset="utf-8">
+        <title> SMC - User & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+        <meta content="Themesbrand" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+    
+        <!-- DataTables -->
+        <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Responsive datatable examples -->
+        <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css">
+    
+    </head>
+
+<body data-sidebar="dark">
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                        </a>
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                    
+                </div>
+
+                <div class="d-flex">
+                      <!-- App Search-->
+                      
+
+                    
+
+                    
+
+                    <div class="dropdown d-none d-lg-inline-block">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
+                            <i class="mdi mdi-fullscreen"></i>
+                        </button>
+                    </div>
+
+                            
+                           
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/user-4.jpg"
+                                alt="Header Avatar">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <!-- item-->
+                            <a class="dropdown-item" href="user-profile.html"><i class="mdi mdi-account-circle font-size-17 align-middle me-1"></i> Profile</a>
+                            <a class="dropdown-item" href="user-profile.html"><i class="mdi mdi-wallet font-size-17 align-middle me-1"></i> Change Password</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-17 align-middle me-1 text-danger"></i> Logout</a>
+                        </div>
+                    </div>
+
+                    
+        
+                </div>
+            </div>
+        </header>
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-home-outline"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="user-profile.html" class=" waves-effect">
+                                <i class="mdi mdi-account-circle"></i>
+                                <span>User Profile</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-account-group"></i>
+                                <span>Team & Network</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="referral-team.html">Referral Team</a></li>
+                                <li><a href="level-team.html">Level Team</a></li>
+                                <li><a href="my-downline.html">My Downline</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="chit-group.html" class="waves-effect">
+                                <i class="mdi mdi-account-multiple"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Chit Group</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-chart-bar"></i>
+                                <span>Income report</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="referral-income.html">Referral Income</a></li>
+                                <li><a href="level-income.html">Level Income</a></li>
+                                <li><a href="reward-income.html">Reward Income</a></li>
+                               
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-wallet"></i>
+                                <span>Wallet</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="withdraw-report.html">withdraw Report</a></li>
+                                <li><a href="income-statement.html">Income Statement</a></li>
+                                
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="" class="waves-effect">
+                                <i class="mdi mdi-logout"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content" style="margin-left: 250px; padding: 20px; min-height: 100vh;">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="page-title-box" style="margin-bottom: 20px;">
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <h6 class="page-title" style="font-size: 1.5rem; color: #495057; font-weight: 600;">User Profile</h6>
+                                <ol class="breadcrumb m-0" style="background-color: transparent; padding: 0;">
+                                    <li class="breadcrumb-item"><a href="#" style="color: #6c757d;">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="userprofile" style="color: #495057;">User Profile</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card" style="border: none; box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); border-radius: 10px;">
+                                <div class="card-body" style="padding: 30px;">
+                                    <h4 class="card-title" style="font-size: 1.25rem; color: #495057; margin-bottom: 5px;">USER</h4>
+                                    <p class="card-title-desc" style="color: #6c757d; margin-bottom: 20px;">test@gmail.com</p>
+
+                                    <form id="form-horizontal" class="form-horizontal form-wizard-wrapper">
+                                        <h3 style="color: #495057; font-size: 1.1rem; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee;">Seller Details</h3>
+                                        <fieldset style="padding: 20px 0;">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtFirstNameBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Name</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtFirstNameBilling" name="txtFirstNameBilling" type="text" class="form-control" placeholder="Enter your name" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtLastNameBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Mobile No.</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtLastNameBilling" name="txtLastNameBilling" type="text" class="form-control" placeholder="Enter your number" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtEmailAddressBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Email Address</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtEmailAddressBilling" name="txtEmailAddressBilling" type="text" class="form-control" placeholder="Enter your email" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtEmailAddressBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Country</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtEmailAddressBilling" name="txtEmailAddressBilling" type="text" class="form-control" placeholder="Enter your country" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                        
+                                        <h3 style="color: #495057; font-size: 1.1rem; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee;">Login Security</h3>
+                                        <fieldset style="padding: 20px 0;">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtFirstNameBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Current Login password</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtFirstNameBilling" name="txtFirstNameBilling" type="password" class="form-control" placeholder="Enter Current login password" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtLastNameBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">New login Password</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtLastNameBilling" name="txtLastNameBilling" type="password" class="form-control" placeholder="Enter password" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtEmailAddressBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Retype login Password</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtEmailAddressBilling" name="txtEmailAddressBilling" type="password" class="form-control" placeholder="confirm password" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                        
+                                        <h3 style="color: #495057; font-size: 1.1rem; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee;">Transaction Security</h3>
+                                        <fieldset style="padding: 20px 0;">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtFirstNameBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Current transaction password</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtFirstNameBilling" name="txtFirstNameBilling" type="password" class="form-control" placeholder="Enter Current transaction password" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtLastNameBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">New Transaction Password</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtLastNameBilling" name="txtLastNameBilling" type="password" class="form-control" placeholder="Enter new password" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row mb-3">
+                                                        <label for="txtEmailAddressBilling" class="col-lg-3 col-form-label" style="font-weight: 500; color: #495057;">Retype Transaction Password</label>
+                                                        <div class="col-lg-9">
+                                                            <input id="txtEmailAddressBilling" name="txtEmailAddressBilling" type="password" class="form-control" placeholder="confirm password" style="border-radius: 5px; border: 1px solid #ced4da; padding: 10px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                        
+                                        <h3 style="color: #495057; font-size: 1.1rem; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee;">Wallet Address History</h3>
+                                        <fieldset style="padding: 20px 0;">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="table-responsive">
+                                                        <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%; border: 1px solid #eee;">
+                                                            <thead style="background-color: #f8f9fa;">
+                                                                <tr>
+                                                                    <th style="padding: 12px; border: 1px solid #eee;">#</th>
+                                                                    <th style="padding: 12px; border: 1px solid #eee;">Currency name</th>
+                                                                    <th style="padding: 12px; border: 1px solid #eee;">Wallet Address</th>
+                                                                    <th style="padding: 12px; border: 1px solid #eee;">Action</th>
+                                                                </tr>
+                                                            </thead>
+                                                           
+                                                           
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay"></div>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <!-- form wizard -->
+    <script src="assets/libs/jquery-steps/build/jquery.steps.min.js"></script>
+
+    <!-- form wizard init -->
+    <script src="assets/js/pages/form-wizard.init.js"></script>
+
+    <script src="assets/js/app.js"></script>
+</body>
+<!-- Mirrored from themesbrand.com/veltrix/layouts/form-wizard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 11:35:50 GMT -->
+</html>

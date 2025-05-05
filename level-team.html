@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+    
+<!-- Mirrored from themesbrand.com/veltrix/layouts/tables-datatable.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 11:35:57 GMT -->
+<head>
+    
+        <meta charset="utf-8">
+        <title> SMC - User & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
+        <meta content="Themesbrand" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+    
+        <!-- DataTables -->
+        <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Responsive datatable examples -->
+        <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css">
+    
+    </head>
+
+<body data-sidebar="dark">
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                        </a>
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets\images\logo.jpg" alt="" height="40">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                    
+                </div>
+
+                <div class="d-flex">
+                      <!-- App Search-->
+                      
+
+                    
+
+                    
+
+                    <div class="dropdown d-none d-lg-inline-block">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
+                            <i class="mdi mdi-fullscreen"></i>
+                        </button>
+                    </div>
+
+                            
+                           
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/user-4.jpg"
+                                alt="Header Avatar">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <!-- item-->
+                            <a class="dropdown-item" href="user-profile.html"><i class="mdi mdi-account-circle font-size-17 align-middle me-1"></i> Profile</a>
+                            <a class="dropdown-item" href="user-profile.html"><i class="mdi mdi-wallet font-size-17 align-middle me-1"></i> Change Password</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-17 align-middle me-1 text-danger"></i> Logout</a>
+                        </div>
+                    </div>
+
+                    
+        
+                </div>
+            </div>
+        </header>
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-home-outline"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="user-profile.html" class=" waves-effect">
+                                <i class="mdi mdi-account-circle"></i>
+                                <span>User Profile</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-account-group"></i>
+                                <span>Team & Network</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="referral-team.html">Referral Team</a></li>
+                                <li><a href="level-team.html">Level Team</a></li>
+                                <li><a href="my-downline.html">My Downline</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="chit-group.html" class="waves-effect">
+                                <i class="mdi mdi-account-multiple"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Chit Group</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-chart-bar"></i>
+                                <span>Income report</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="referral-income.html">Referral Income</a></li>
+                                <li><a href="level-income.html">Level Income</a></li>
+                                <li><a href="reward-income.html">Reward Income</a></li>
+                               
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="mdi mdi-wallet"></i>
+                                <span>Wallet</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="withdraw-report.html">withdraw Report</a></li>
+                                <li><a href="income-statement.html">Income Statement</a></li>
+                                
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="" class="waves-effect">
+                                <i class="mdi mdi-logout"></i><span class="badge rounded-pill bg-primary float-end"></span>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+            <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="page-title-box">
+                            <div class="row align-items-center">
+                                <div class="col-md-8">
+                                    <h6 class="page-title">Level Team</h6>
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Team</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Level Team</li>
+                                    </ol>
+                                </div>
+                               
+                               
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <h4 class="card-title">Level Team</h4>
+                                        
+                                        <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%; background-color: #ffffff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+
+                                            <thead style="background-color: #4a5568; color: #c175c2;">
+                                            <tr>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">#</th>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">Level Number</th>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">Total Member</th>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">Active Id</th>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">Inactive Id</th>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">Total Business</th>
+                                                <th style="padding: 12px; text-align: left; font-weight: 600;">Action</th>
+                                            </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr style="background-color: #f7fafc;">
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Tiger Nixon</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">System Architect</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Edinburgh</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">61</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">2011/04/25</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$320,800</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$320,800</td>
+                                                </tr>
+                                                <tr style="background-color: #ffffff;">
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Cara Stevens</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Sales Assistant</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">New York</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">46</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">2011/12/06</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$145,600</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$320,800</td>
+                                                </tr>
+                                                <tr style="background-color: #f7fafc;">
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Hermione Butler</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Regional Director</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">London</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">47</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">2011/03/21</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$356,250</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$320,800</td>
+                                                </tr>
+                                                <tr style="background-color: #ffffff;">
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Lael Greer</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Systems Administrator</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">London</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">21</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">2009/02/27</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$103,500</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$320,800</td>
+                                                </tr>
+                                                <tr style="background-color: #f7fafc;">
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Jonas Alexander</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">Developer</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">San Francisco</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">30</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">2010/07/14</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$86,500</td>
+                                                    <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; color: #2d3748;">$320,800</td>
+                                                </tr>
+                                            </tbody>
+                                       
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div> <!-- end row -->
+
+                        <!-- end row -->
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+         
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+                             
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+
+        <!-- Required datatable js -->
+        <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <!-- Buttons examples -->
+        <script src="assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+        <script src="assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+        <script src="assets/libs/jszip/jszip.min.js"></script>
+        <script src="assets/libs/pdfmake/build/pdfmake.min.js"></script>
+        <script src="assets/libs/pdfmake/build/vfs_fonts.js"></script>
+        <script src="assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+        <script src="assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+        <script src="assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+        <!-- Responsive examples -->
+        <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+
+        <!-- Datatable init js -->
+        <script src="assets/js/pages/datatables.init.js"></script> 
+
+        <script src="assets/js/app.js"></script>
+
+    </body>
+
+<!-- Mirrored from themesbrand.com/veltrix/layouts/tables-datatable.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 11:36:01 GMT -->
+</html>
